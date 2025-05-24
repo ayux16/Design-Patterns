@@ -1,2 +1,0 @@
-# Design-Patterns
-LLD DESIGN PATTERNS WITH
