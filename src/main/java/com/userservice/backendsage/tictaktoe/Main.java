@@ -15,8 +15,6 @@ public class Main {
     public static void main(String[] args) {
         System.out.println("Hello, World!");
 
-        System.out.println("Welcome to Tic-Tac-Toe!");
-
         GameController gameController = new GameController();
 
         //abstraction here -->> we are hiding all the details from details and only exposing dimentions and player arraylist
