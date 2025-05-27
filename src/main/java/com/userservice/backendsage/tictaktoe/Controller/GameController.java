@@ -14,8 +14,11 @@ public class GameController {
                 .setPlayers(player)
                 .Build();
     }
-    public void makeMove(){
-
+    public void makeMove(Game game){
+        game.MakeMove();
+    }
+    public Player diplayName(Game game){
+        return game.getWinner();
     }
     public GAME_STATUS getState(Game game){
         return game.getStatus();

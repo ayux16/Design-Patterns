@@ -4,14 +4,47 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4efff688-c634-407b-9942-a92b8c188393" name="Changes" comment="xyz" />
+    <list default="true" id="4efff688-c634-407b-9942-a92b8c188393" name="Changes" comment="xyz">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/userservice/backendsage/tictaktoe/Exceptions/illegalMoveException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/userservice/backendsage/tictaktoe/Model/Factory/BotPlayingStrategyFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/userservice/backendsage/tictaktoe/Model/Strategy/BotWinningStrategy/BotPlayingStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/userservice/backendsage/tictaktoe/Model/Strategy/BotWinningStrategy/EasyBotPlayingStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/userservice/backendsage/tictaktoe/Model/Strategy/BotWinningStrategy/HardBotPlayingStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/userservice/backendsage/tictaktoe/Model/Strategy/BotWinningStrategy/MediumBotPlayingStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/userservice/backendsage/tictaktoe/Model/Strategy/winningStrategy/ColumnWinningStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/userservice/backendsage/tictaktoe/Model/Strategy/winningStrategy/DiagonalWinningStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/userservice/backendsage/tictaktoe/Model/Strategy/winningStrategy/RowWinningStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/userservice/backendsage/tictaktoe/Model/Strategy/winningStrategy/WinningStrategy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Design-Patterns/src/main/java/com/userservice/backendsage/tictaktoe/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Design-Patterns/src/main/java/com/userservice/backendsage/tictaktoe/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/userservice/backendsage/tictaktoe/Controller/GameController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/userservice/backendsage/tictaktoe/Controller/GameController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/userservice/backendsage/tictaktoe/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/userservice/backendsage/tictaktoe/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/userservice/backendsage/tictaktoe/Model/Board.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/userservice/backendsage/tictaktoe/Model/Board.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/userservice/backendsage/tictaktoe/Model/Bot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/userservice/backendsage/tictaktoe/Model/Bot.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/userservice/backendsage/tictaktoe/Model/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/userservice/backendsage/tictaktoe/Model/Game.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/userservice/backendsage/tictaktoe/Model/Move.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/userservice/backendsage/tictaktoe/Model/Move.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/userservice/backendsage/tictaktoe/Model/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/userservice/backendsage/tictaktoe/Model/Player.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Exception" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/Design-Patterns" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="RESET_MODE" value="HARD" />
     <option name="ROOT_SYNC" value="SYNC" />
     <option name="UPDATE_TYPE" value="REBASE" />
@@ -22,16 +55,19 @@
     &quot;assignee&quot;: &quot;ayux16&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/ayux16/Design-Patterns.git&quot;,
-    &quot;accountId&quot;: &quot;2eb918d6-be0c-459a-93e6-443d7fb385e2&quot;
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/ayux16/Design-Patterns",
+    "accountId": "2eb918d6-be0c-459a-93e6-443d7fb385e2"
   }
-}</component>
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 4
 }</component>
   <component name="ProjectId" id="2xXsKKdFAvJqPXneGQjJAlLO5Fr" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -44,12 +80,29 @@
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "D:/BackendSage/Low Level Design applications/TicTacToe",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "settings.editor.selected.configurable": "application.passwordSafe",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.userservice.backendsage.tictaktoe.Main" />
+      <module name="TicTacToe" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.userservice.backendsage.tictaktoe.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="JetRunConfigurationType">
       <module name="TicTacToe" />
       <method v="2">
@@ -61,6 +114,11 @@
       <option name="filePath" />
       <method v="2" />
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -80,6 +138,7 @@
       <updated>1748095687499</updated>
       <workItem from="1748095688653" duration="277000" />
       <workItem from="1748096142886" duration="16000" />
+      <workItem from="1748164825784" duration="14698000" />
     </task>
     <task id="LOCAL-00001" summary="xyz">
       <option name="closed" value="true" />
@@ -95,8 +154,29 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="xyz" />
     <option name="LAST_COMMIT_MESSAGE" value="xyz" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.NullPointerException" package="java.lang" />
+          <option name="timeStamp" value="20" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

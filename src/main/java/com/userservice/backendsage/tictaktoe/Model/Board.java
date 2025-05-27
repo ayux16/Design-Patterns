@@ -28,7 +28,7 @@ public class Board {
                     System.out.print("| |");
                 }
                 else{
-                    System.out.print(" | "+cell.getPlayer().getSymbol()+" | ");
+                    System.out.print("| "+cell.getPlayer().getSymbol().getCh()+" |");
                 }
             }
             System.out.println();
